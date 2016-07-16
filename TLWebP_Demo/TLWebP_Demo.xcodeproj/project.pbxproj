@@ -259,6 +259,7 @@
 		6D5C651B1D3A217600C10064 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		6D5C651C1D3A217600C10064 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		6D5C652D1D3A253400C10064 /* WebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebImage.h; sourceTree = "<group>"; };
+		6D5C66A81D3A433000C10064 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -484,6 +485,7 @@
 		6D5C64811D3A011900C10064 /* webp */ = {
 			isa = PBXGroup;
 			children = (
+				6D5C66A81D3A433000C10064 /* config.h */,
 				6D5C64821D3A011900C10064 /* decode.h */,
 				6D5C64831D3A011900C10064 /* demux.h */,
 				6D5C64841D3A011900C10064 /* encode.h */,

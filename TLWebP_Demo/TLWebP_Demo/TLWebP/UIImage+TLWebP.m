@@ -9,6 +9,8 @@
 #import "UIImage+TLWebP.h"
 #import <sys/utsname.h>
 #import <objc/runtime.h>
+#include "./webp/webp/decode.h"
+#include "./webp/webp/encode.h"
 
 @implementation UIImage (TLWebP)
 #pragma mark-

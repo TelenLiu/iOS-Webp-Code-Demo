@@ -7,10 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#include "./webp/webp/decode.h"
-#include "./webp/webp/encode.h"
 
-#define __isIpad_1x_To_iPhone_2x  0  //是否开启 1x to 2x
+#define __isIpad_1x_To_iPhone_2x  1  //是否开启 1x to 2x
 #define __isSupportSystemMethods  1  //是否开启 支持系统方法，（失败后，尝试webp加载）
 
 /**
@@ -35,6 +33,17 @@
  github：https://github.com/Telenliu
  
  *
+ */
+
+typedef struct WebPConfig WebPConfig;
+typedef enum WebPPreset WebPPreset;
+/**
+ WEBP_PRESET_DEFAULT = 0,  // default preset.
+ WEBP_PRESET_PICTURE,      // digital picture, like portrait, inner shot
+ WEBP_PRESET_PHOTO,        // outdoor photograph, with natural lighting
+ WEBP_PRESET_DRAWING,      // hand or line drawing, with high-contrast details
+ WEBP_PRESET_ICON,         // small-sized colorful images
+ WEBP_PRESET_TEXT          // text-like
  */
 
 @interface UIImage (TLWebP)
